@@ -8,7 +8,7 @@
  */
 function capitalizeWords(input) {
     return input.replace(/\b\w/g, char => char.toUpperCase());
-}
+};
 
 /**
  * Filters active users from the array.
@@ -17,7 +17,7 @@ function capitalizeWords(input) {
  */
 function filterActiveUsers(users) {
     return users.filter(user => user.isActive);
-}
+};
 
 /**
  * Logs an action performed by a user with a timestamp.
